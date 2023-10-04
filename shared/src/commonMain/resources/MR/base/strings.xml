@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="frag_connection_descr">"I am ready to grow your plants. Press the \'Start scan\' button to search for an UltraTower. Don\'t forget to start the bluetooth on the tower. "</string>
+    <string name="frag_connection_title_list">List of Ultratowers</string>
+    <string name="frag_connection_btn_start_ble">Start scan</string>
+    <string name="welcome">Welcome</string>
+    <string name="another">Another one?</string>
+    <string name="no_data">--</string>
+    <string name="validate">Validate</string>
+    <string name="mister_on">Cycle ON</string>
+    <string name="mister_off">Cycle OFF</string>
+
+    <string name="ble_not_connected">Bluetooth not connected</string>
+    <string name="ble_too_many_operations">Too many operations. Wait a few seconds</string>
+
+    <string name="ambient">Ambient</string>
+    <string name="roots">Root</string>
+    <string name="tank">Tank</string>
+
+    //BOTTOMSHEET THINGSPEAK
+    <string name="bottomsheet_title_thingspeak">ThingSpeak</string>
+    <string name="bottomsheet_button_thingspeak">Let\'s go</string>
+    <string name="bottomsheet_descr_thingspeak">Sensor data can be sent to your ThingSpeak. Please fill in the necessary fields if you want to activate it.</string>
+    <string name="bottomsheet_hint_ssid_thingspeak" translatable="false">WiFi SSID</string>
+    <string name="bottomsheet_hint_pw_thingspeak" translatable="false">WiFi Password</string>
+    <string name="bottomsheet_hint_time_thingspeak">Interval (in min)</string>
+    <string name="bottomsheet_hint_channel_thingspeak" translatable="false">ThingSpeak channel ID</string>
+    <string name="bottomsheet_hint_apikey_thingspeak" translatable="false">ThingSpeak API KEY</string>
+    <string name="bottomsheet_enable_thingspeak">Enable ThingSpeak</string>
+    <string name="bottomsheet_snack_error_thingspeak">Error please check the information</string>
+
+
+
+    //FRAGMENT MISTERS
+    <string name="frag_mist_freq_descr">You can change the frequency of vibration of the discs according to the manufacturer\'s recommendations.</string>
+    <string name="frag_mist_khz">kHz</string>
+    <string name="frag_mist_freq_title">Disks frequency</string>
+    <string name="alert_mist_freq_title">Frequency (kHz)</string>
+    <string name="frag_mist_enable">Enable disks</string>
+
+    <string name="alert_mist_enable_dscr">For any manipulation of the disks please disconnect the power supply.\nAre you sure you want to stop the misters? </string>
+
+    <string name="frag_mist_cycle_on_descr">You can change the duration of the activation cycle (minimum 5 min).</string>
+    <string name="frag_mist_min">min</string>
+    <string name="frag_mist_cycle_on_title">Cycle ON</string>
+    <string name="frag_mist_cycle_off_descr">You can change the period of inactivation of misters. Warning a rest is recommended the value 0 is only for tests.</string>
+    <string name="frag_mist_cycle_off_title">Cycle OFF</string>
+
+    <string name="alert_mist_cycle_title">Duration (min)</string>
+    <string name="warning">Warning</string>
+    <string name="frag_mist_toolbar_title">Disks settings</string>
+
+
+    //FRAGMENT TEMP
+    <string name="frag_temp_title">Thermometer settings</string>
+    <string name="frag_temp_descr">You can enable or disable the sensor reading as well as set an offset.</string>
+    <string name="frag_temp_celsius" translatable="false">°C</string>
+    <string name="frag_temp_fahrenheit" translatable="false">°F</string>
+    <string name="frag_amb_temp_title">Ambient temperature</string>
+    <string name="frag_tank_temp_title">Tank temperature</string>
+    <string name="frag_root_temp_title">Root temperature</string>
+    <string name="frag_enable">Enable</string>
+    <string name="frag_compensation_descr">Activate the temperature correction on pH and EC measurements.</string>
+
+    <string name="frag_temp_DS1820_title">Scanning the DS1820</string>
+    <string name="frag_temp_DS1820_descr">To display the tank and root temperatures, UltraTower must scan the addresses of the thermometers.</string>
+    <string name="frag_temp_DS1820_root">Root</string>
+    <string name="frag_temp_DS1820_tank">Tank</string>
+    <string name="frag_temp_DS1820_snack_no_adress">No associated thermometer.</string>
+
+    <string name="alert_temp_offset_title">Offset</string>
+
+    <string name="bottomsheet_title_first_use_temp">Thermometer pairing</string>
+    <string name="bottomsheet_button_first_use_temp">Let\'s go</string>
+    <string name="bottomsheet_descr_first_use_temp">Please connect only one DS1820 thermometer so that it can be scanned by your UltraTower. When it is good you can click the button to start the process.</string>
+    <string name="bottomsheet_button_first_use_temp_snack_0">No sensors connected</string>
+    <string name="bottomsheet_button_first_use_temp_snack_2">Too many connected sensors</string>
+    <string name="bottomsheet_button_first_use_temp_snack_3">Unknown error, please retry.</string>
+
+
+    //FRAGMENT PH
+    <string name="frag_ph_title">pH sensor</string>
+    <string name="frag_ph_title_calib">Calibration</string>
+    <string name="dialog_ph_btn_calib">Calibrate</string>
+    <string name="dialog_ph_dscr_calib">You can start the calibration by clicking on the calibrate button</string>
+    <string name="frag_ph_descr_calib">You can calibrate your pH probe. To do this, immerse the probe in a pH 4 and 9 solution and click on the right button each time. Please wait until the pH value stabilizes before clicking.</string>
+    <string name="frag_ph_button_calib">Send calibration</string>
+    <string name="frag_ph_enable">Enable pH</string>
+    <string name="frag_ph_iscalib">Wait the end of calibration</string>
+    <string name="frag_ph_calib_error">Calibration error</string>
+    <string name="frag_ph_calib_success">Calibration OK</string>
+    <string name="frag_ph_calib_alert_desrc">The sensor is already calibrated for this value. Do you want to recalibrate it?</string>
+    <string name="frag_ph_need_calib">Calibration required for pH 4 and 9</string>
+    <string name="frag_ph_tower_iscalib_alert_desrc">Your UltraTower is already calibrated for pH. Are you sure you want to replace the calibration values?</string>
+
+    //FRAGMENT EC
+    <string name="frag_ec_title">EC sensor</string>
+    <string name="frag_ec_descr_calib">You can calibrate your EC probe. To do this, immerse the probe in solutions of different concentrations. Write down the EC (example 1.5) then click on the add button. You need between 2 and 5 calibration values to calibrate your tower.</string>
+    <string name="frag_ec_enable">Enable EC</string>
+    <string name="frag_ec_add_button">ADD</string>
+    <string name="frag_ec_hint_textlayout">EC value</string>
+    <string name="frag_ec_alert_delete_title">Delete</string>
+    <string name="frag_ec_alert_delete_msg">Are you sure you want to delete this value?</string>
+    <string name="cancel">Cancel</string>
+    <string name="frag_ec_snack_too_many">No more than 5 values</string>
+    <string name="frag_ec_snack_no_value">Please enter a value</string>
+    <string name="frag_ec_snack_more_value">Please add between 2 and 5 values</string>
+    <string name="frag_ec_snack_error_ena">Please enable the EC sensor</string>
+</resources>
